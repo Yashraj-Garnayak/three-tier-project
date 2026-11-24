@@ -1,0 +1,6 @@
+node_modules/
+.terraform/
+*.tfstate
+*.tfstate.*
+# Real Kubernetes secrets stay out of git; use secrets.example.yaml as the template.
+Kubernetes-Manifests-file/Database/secrets.yaml
